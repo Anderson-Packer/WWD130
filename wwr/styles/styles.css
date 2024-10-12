@@ -53,20 +53,20 @@ nav a:hover {
 }
 footer { 
     background-color:#EAFFFD;
-    color: white;
+    color: black;
 }
 .home-title {
-    color:#EFEFF0;
+    color:black;
 }
 h4 {
     color: black;
 
 }
 .msg h2 {
-    color:#D5CAD6;
+    color:black;
 }
 .msg p {
-    color: white;
+    color: black;
 }
 footer a {
     color:#D5CAD6;
