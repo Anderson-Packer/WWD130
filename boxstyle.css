@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "cool";
+    src: url(silvertones/Silvertones.ttf);
+}
+body {
+    background: lightskyblue;
+}
+.box1 {
+    margin: 0 auto;
+    border: 15px solid white;
+    padding: 10px 5px;
+    width: 500px;
+    text-align: center;
+    background: #FAF391;
+}
+.box2 {
+    margin: 0 auto;
+    border: 25px dotted white;
+    padding: 10px 5px;
+    width: 500px;
+    text-align: center;
+    background: #C591FA;
+    font-family: "cool";
+    font-size: 20px
+}
+.box3 {
+    margin: 0 auto;
+    border: 25px double white;
+    padding: 10px 5px;
+    width: 500px;
+    text-align: center;
+    background: lightgreen;
+}
+.box1, .box2, .box3 {
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+}
