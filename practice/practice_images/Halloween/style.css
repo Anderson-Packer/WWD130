@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Creepster&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap');
+body {
+    background-color: lightslategray;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+li {
+    font-family: "Rubik Wet Paint", system-ui;;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    font-size: 80px;
+    color: rgb(94, 4, 94);
+}
+.hero {
+    border: 20px double chocolate;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+h2 {
+    color: rgb(94, 4, 94);
+    font-family: "Rubik Wet Paint", system-ui;;
+    font-size: 50px;
+    display: flex;
+    margin: 10px 600px 10px 100px;
+    justify-content: center;
+    background-color: chocolate;
+    border-radius: 40px;
+}
+p {
+    text-align: center;
+    font-family: "Creepster", system-ui;
+    color: white;
+    font-size: 30px;
+}
