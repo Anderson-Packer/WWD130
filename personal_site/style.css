@@ -82,3 +82,51 @@ body {
     width: 425px;
     height: auto;
 }
+header {
+    background-color: #F58522;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    color: #282A36;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #F58522;
+    color: #282A36;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+footer nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}
+
+footer nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.wheel {
+    display: block;
+    width: 550px;
+    margin: 0 auto 50px auto;
+}
