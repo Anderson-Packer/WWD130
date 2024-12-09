@@ -130,3 +130,17 @@ footer nav a:hover {
     width: 550px;
     margin: 0 auto 50px auto;
 }
+.dropdown-content {
+    display: none;
+    float:left;
+    position: absolute;
+    background-color: #282A36;
+    color: white;
+    padding: 200px;
+}
+.dropdown {
+    display: flex;
+    border: solid;
+    width: 500px;
+}
+.dropdown:hover .dropdown-content {display: block;}
