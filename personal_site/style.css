@@ -139,7 +139,7 @@ footer nav a:hover {
     list-style-type: none;
     display: block;
     position: absolute;
-    background-color: #282A36;
+    background-color: #F58522;
     color: white;
     width: 420px;
     height: 400px;
@@ -169,7 +169,7 @@ footer nav a:hover {
     list-style-type: none;
     display: block;
     position: absolute;
-    background-color: #282A36;
+    background-color: #F58522;
     color: white;
     width: 435px;
     height: 400px;
@@ -190,4 +190,4 @@ footer nav a:hover {
     transform: scaleY(1);
 }
 
-
+.dropdown2, .dropdown {margin: 0 auto}
