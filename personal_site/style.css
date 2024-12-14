@@ -131,16 +131,63 @@ footer nav a:hover {
     margin: 0 auto 50px auto;
 }
 .dropdown-content {
-    display: none;
-    float:left;
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-right: 40px;
+    text-align: center;
+    list-style-type: none;
+    display: block;
     position: absolute;
     background-color: #282A36;
     color: white;
-    padding: 200px;
+    width: 420px;
+    height: 400px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s ease;
 }
 .dropdown {
     display: flex;
     border: solid;
     width: 500px;
 }
-.dropdown:hover .dropdown-content {display: block;}
+.quality {
+    width: 500px;
+    height: auto;
+}
+.dropdown:hover .dropdown-content {
+    transform: scaleY(1);
+}
+
+.dropdown-content2 {
+    margin: 0 auto;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-right: 25px;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    background-color: #282A36;
+    color: white;
+    width: 435px;
+    height: 400px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s ease;
+}
+.dropdown2 {
+    display: flex;
+    border: solid;
+    width: 500px;
+}
+.value {
+    width: 500px;
+    height: auto;
+}
+.dropdown2:hover .dropdown-content2 {
+    transform: scaleY(1);
+}
+
+
